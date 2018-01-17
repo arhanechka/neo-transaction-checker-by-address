@@ -1,0 +1,8 @@
+1. generate address.
+2. send address to front (to client who is gonna by smth)
+3. get current block height/index, save number as startingBlock
+4. create thread (go routine) checking every new block (getBlock) after startingBlock loocking for generated address (our address) appear.
+5. If adrress has been found -> get assets type and value (NEO/GAS/Other and amount) 
+6. Check if amount is sufficient and asset type is proper and valid.
+7. Wait confirmation for 2 blocks (define in config)
+8. Send user sucsess message
