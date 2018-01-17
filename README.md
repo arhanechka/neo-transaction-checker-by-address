@@ -2,8 +2,6 @@
 Catches if transaction was made in the range of predetermined and last block. 
 Send information to console
 
-![alt text](https://i.imgur.com/wqAKLIe.png "Kartinochka")
-
 Running rpc client with open wallet required. Use neo-cli
 ```dotnet neo-cli.dll /rpc
    open wallet <path_to_wallet>
